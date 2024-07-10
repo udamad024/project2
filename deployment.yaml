@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project2-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: project2-app
+  template:
+    metadata:
+      labels:
+        app: project2-app
+    spec:
+      containers:
+        - name: project2-app
+          image: udamad/project2:latest
+          ports:
+            - containerPort: 3030
