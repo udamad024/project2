@@ -1,8 +1,8 @@
-# Deploy a Python Application
+Deploy a Python Application
 
 the python application will display the current time in toronto it uses the tzdata library to achieve this. In addition, the app has been contanarized and will be run using Kubernetes.
 
-## Steps
+Steps - 
 
 *Build the docker image:
 
