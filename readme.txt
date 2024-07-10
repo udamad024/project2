@@ -49,3 +49,8 @@ access the application using the external IP and the port 3030.*
 
 http://<service-external-ip>:3030
 
+The same deployment can be accessed via the internal IP and nodeport however there is a known issue with using Mac m2 with a networking issue 
+can be found here - https://github.com/kubernetes/minikube/issues/11193 
+
+can be accessed without running "minikube tunnel" after deployment of both pods and service via the http://internal-ip:nodeport
+
