@@ -45,7 +45,7 @@ kubectl get pods - info on pods running
 
 *a. Find the external ip using "kubectl get services"
 
-access the application using the external IP and the NodePort.*
+access the application using the external IP and the port 3030.*
 
-http://<service-external-ip>:32727
+http://<service-external-ip>:3030
 
