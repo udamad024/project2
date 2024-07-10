@@ -1,6 +1,6 @@
 # Deploy a Python Application
 
-In the following task, the python application will display the current time in toronto it uses the tzdata library to achieve this. In addition, the app has been contanarized and will be run using Kubernetes.
+the python application will display the current time in toronto it uses the tzdata library to achieve this. In addition, the app has been contanarized and will be run using Kubernetes.
 
 ## Steps
 
